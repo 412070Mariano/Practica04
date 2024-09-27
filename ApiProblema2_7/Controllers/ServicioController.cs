@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Problema2_7Back.Data.Entities;
-using Problema2_7Back.Repositories;
-
+//using Problema2_7Back.Repositories;
+using Problema2_7Back.Services;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ApiProblema2_7.Controllers
@@ -11,11 +11,11 @@ namespace ApiProblema2_7.Controllers
     public class ServicioController : ControllerBase
     {
 
-        private IServicioRepository _Repository;
+        private IServicioService _servicioService;
 
-        public ServicioController(IServicioRepository repository)
+        public ServicioController(IServicioService servicioService)
         {
-            _Repository = repository;
+            _servicioService = servicioService;
         }
 
         // GET: api/<ServicioController>
@@ -24,7 +24,7 @@ namespace ApiProblema2_7.Controllers
         {
             try
             {
-                return Ok(_Repository.GetAll());
+                return Ok(_servicioService.GetAll());
             }
             catch (Exception)
             {
@@ -39,7 +39,7 @@ namespace ApiProblema2_7.Controllers
         {
             try
             {
-                return Ok(_Repository.GetById(id));
+                return Ok(_servicioService.GetById(id));
             }
             catch (Exception)
             {
@@ -52,7 +52,7 @@ namespace ApiProblema2_7.Controllers
         {
             try
             {
-                return Ok(_Repository.GetByFilter(promo)); //dos filtros queryparam
+                return Ok(_servicioService.GetByFilter(promo)); //dos filtros queryparam
             }
             catch (Exception)
             {
@@ -69,7 +69,7 @@ namespace ApiProblema2_7.Controllers
             {
                 if(IsValid(value))
                 {
-                    _Repository.Create(value);
+                    _servicioService.Create(value);
                     return Ok("¡Servicio creado exitosamente!");
                 }
                 else
@@ -103,7 +103,7 @@ namespace ApiProblema2_7.Controllers
 
             try
             {
-                var servicioExistente = _Repository.GetById(id); // Método para obtener el libro por ID
+                var servicioExistente = _servicioService.GetById(id); // Método para obtener el libro por ID
                 if (servicioExistente == null)
                 {
                     return NotFound("Servicio no encontrado.");
@@ -113,7 +113,7 @@ namespace ApiProblema2_7.Controllers
                 servicioExistente.Costo = value.Costo;
                 servicioExistente.EnPromocion = value.EnPromocion;
 
-                _Repository.Update(servicioExistente);
+                _servicioService.Update(servicioExistente);
                 return Ok("Servicio actualizado");
             }
             catch (Exception)
@@ -129,7 +129,7 @@ namespace ApiProblema2_7.Controllers
         {
             try
             {
-                _Repository.Delete(id);
+                _servicioService.Delete(id);
                 return Ok($"Servicio borrado");
             }
             catch (Exception)

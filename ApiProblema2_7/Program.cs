@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Problema2_7Back.Data.Entities;
 using Problema2_7Back.Repositories;
+using Problema2_7Back.Services;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TurnosDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IServicioRepository, ServicioRepository>();
+
+builder.Services.AddScoped<IServicioService, ServicioService>();
 
 
 
