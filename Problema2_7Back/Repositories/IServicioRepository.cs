@@ -18,7 +18,7 @@ namespace Problema2_7Back.Repositories
         TServicio? GetById(int id);
         void Delete(int id);
 
-        //List<TServicio> GetByFilter(string nombre);
+        List<TServicio> GetByFilter(string promo);
 
 
     }

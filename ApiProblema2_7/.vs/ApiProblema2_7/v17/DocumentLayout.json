@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\ApiProblema2_7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\repositories\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\apiproblema2_7\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|solutionrelative:controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +10,17 @@
       "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\repositories\\iserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\data\\entities\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\repositories\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\apiproblema2_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\data\\entities\\tservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\apiproblema2_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7DD92F4-8079-47C9-979E-73FAC43E2234}|..\\Problema2_7Back\\Problema2_7Back.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\problema2_7back\\data\\entities\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA2752BA-E418-4A4B-B3E9-55741C32E2EA}|ApiProblema2_7.csproj|c:\\users\\usurio\\onedrive\\documentos\\actividad04\\apiproblema2_7\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TurnosDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\Problema2_7Back\\Data\\Entities\\TurnosDbContext.cs",
               "RelativeDocumentMoniker": "..\\Problema2_7Back\\Data\\Entities\\TurnosDbContext.cs",
@@ -69,51 +69,50 @@
               "RelativeToolTip": "..\\Problema2_7Back\\Data\\Entities\\TurnosDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T04:27:32.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T04:27:32.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IServicioRepository.cs",
               "DocumentMoniker": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\Problema2_7Back\\Repositories\\IServicioRepository.cs",
               "RelativeDocumentMoniker": "..\\Problema2_7Back\\Repositories\\IServicioRepository.cs",
               "ToolTip": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\Problema2_7Back\\Repositories\\IServicioRepository.cs",
               "RelativeToolTip": "..\\Problema2_7Back\\Repositories\\IServicioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:28:17.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServicioRepository.cs",
               "DocumentMoniker": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\Problema2_7Back\\Repositories\\ServicioRepository.cs",
               "RelativeDocumentMoniker": "..\\Problema2_7Back\\Repositories\\ServicioRepository.cs",
               "ToolTip": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\Problema2_7Back\\Repositories\\ServicioRepository.cs",
               "RelativeToolTip": "..\\Problema2_7Back\\Repositories\\ServicioRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:29:50.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServicioController.cs",
               "DocumentMoniker": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\ApiProblema2_7\\Controllers\\ServicioController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServicioController.cs",
               "ToolTip": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\ApiProblema2_7\\Controllers\\ServicioController.cs",
               "RelativeToolTip": "Controllers\\ServicioController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAwH4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:31:26.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USURIO\\OneDrive\\Documentos\\Actividad04\\ApiProblema2_7\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

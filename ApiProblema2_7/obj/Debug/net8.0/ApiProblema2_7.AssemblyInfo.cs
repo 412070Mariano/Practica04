@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiProblema2_7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af32f6fbe1ab0200504a8e9affd07e6fcafe275b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiProblema2_7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiProblema2_7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

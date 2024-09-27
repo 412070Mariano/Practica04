@@ -47,11 +47,18 @@ namespace ApiProblema2_7.Controllers
             }
         }
 
-        //[HttpGet("filtro/{nombre}")]
-        //public IActionResult GetByFilter(string nombre)
-        //{
-
-        //}
+        [HttpGet("filtro")]
+        public IActionResult GetByFilter(string promo)
+        {
+            try
+            {
+                return Ok(_Repository.GetByFilter(promo)); //dos filtros queryparam
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Ha ocurrido un error interno");
+            }
+        }
 
 
         // POST api/<ServicioController>

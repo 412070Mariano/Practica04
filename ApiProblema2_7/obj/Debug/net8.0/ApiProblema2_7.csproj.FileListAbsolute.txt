@@ -142,3 +142,4 @@ C:\Users\USURIO\OneDrive\Documentos\Actividad04\ApiProblema2_7\obj\Debug\net8.0\
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\ApiProblema2_7\obj\Debug\net8.0\ref\ApiProblema2_7.dll
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\ApiProblema2_7\obj\Debug\net8.0\ApiProblema2_7.Properties.Resources.resources
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\ApiProblema2_7\obj\Debug\net8.0\ApiProblema2_7.csproj.GenerateResource.cache
+C:\Users\USURIO\OneDrive\Documentos\Actividad04\ApiProblema2_7\obj\Debug\net8.0\ApiProblema2_7.sourcelink.json

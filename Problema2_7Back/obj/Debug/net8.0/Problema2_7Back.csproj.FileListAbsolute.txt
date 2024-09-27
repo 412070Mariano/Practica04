@@ -61,3 +61,4 @@ C:\Users\USURIO\OneDrive\Documentos\Actividad04\Problema2_7Back\obj\Debug\net8.0
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\Problema2_7Back\obj\Debug\net8.0\Problema2_7Back.pdb
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\Problema2_7Back\obj\Debug\net8.0\Problema2_7Back.genruntimeconfig.cache
 C:\Users\USURIO\OneDrive\Documentos\Actividad04\Problema2_7Back\obj\Debug\net8.0\ref\Problema2_7Back.dll
+C:\Users\USURIO\OneDrive\Documentos\Actividad04\Problema2_7Back\obj\Debug\net8.0\Problema2_7Back.sourcelink.json

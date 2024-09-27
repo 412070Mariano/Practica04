@@ -42,10 +42,13 @@ namespace Problema2_7Back.Repositories
             return _context.TServicios.ToList();
         }
 
-        //public List<TServicio> GetByFilter(string nombre)
-        //{
-        //    return _context.Find(nombre)
-        //}
+        //CON FILTROS
+        public List<TServicio> GetByFilter(string promo)
+        {
+            return _context.TServicios.Where(X => X.EnPromocion == promo).ToList();
+        }
+
+
 
         public TServicio? GetById(int id)
         {
@@ -60,5 +63,7 @@ namespace Problema2_7Back.Repositories
                 _context.SaveChanges();
             }
         }
+
+
     }
 }
